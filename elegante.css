@@ -1,0 +1,39 @@
+body {
+    background-color: #7438F5;
+}
+
+.divelegante {
+    display: flex;
+    justify-content: center;
+}
+
+#elegante {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-style: double;
+    padding: 15px;
+    border-radius: 15px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+#elegante p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.l {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    top: 6px;
+    left: 2px;
+}
+
+h1 {
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.carteiraDeTrabalho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(lightblue, beige);
+}
+
+img {
+    width: 50rem;
+    height: 30rem;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+}
+
+figcaption {
+    font-size: 1.6rem;
+    background-color: darkgrey;
+    width: 50rem;
+    height: auto;
+    text-align: center;
+    font-style: oblique;
+}
+
+h2, p, aside, footer {
+    margin-left: 2rem;
+}
+
+p, aside, footer {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.voltar {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
